@@ -1,0 +1,22 @@
+---
+title: "R Code Practice"
+author: "Anandkumar Patel"
+date: "6/22/2021"
+output: html_document
+---
+
+```{r library}
+library(ggplot2)
+library(faraway)
+```
+
+
+```{r cars}
+summary(cars)
+```
+
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
